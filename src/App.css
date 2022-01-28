@@ -1,16 +1,50 @@
-*{
+* {
     margin: 0px;
     padding: 2px;
+    background-color: black;
 }
 
-.letters{
+.header{
+    font-size: 50px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letters {
     display: grid;
     grid-row-gap: 1px;
     grid-template-columns: 6% 6% 6% 6% 6%;
     column-gap: 1px;
+    border-color: white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
 }
 
-.cell11{
+.cell11 {
     grid-column-start: 1;
-    grid-column-end:2;
+    grid-column-end: 2;
+}
+
+label, input, button {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background-color: black;
+    width: 100px;
+}
+
+button {
+    background-color: white;
+    color: black;
 }
